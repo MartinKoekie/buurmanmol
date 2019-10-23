@@ -4,35 +4,40 @@ height: 100%;
 }
 
 body {
- background-color: indianred;
+ background-color: black;
 
 height: 100%;
 }
+
 #menu{
 background-color:white;
 width: 80%;
 height: 15%;
+margin-left: 10%;
+border: 2px solid black;
+  border-radius: 30px;
 
 }
 
 #container{
-background-color: yellow;
+background-color: black;
 width: 80%;
-height: 40%;
+height: 80%;
 display:flex;
+margin-left:10%;
+margin-top: 10px;
 }
 #dash{
-background-color: magenta;
-width: 20%;
+background-color: black;
+width: 10%;
 height: 100%;
+border: 2px solid darkgrey;
+border-radius:5px;
 }
-#twitter{
-background-color: purple;
-width: 60%;
-height: 10%;
-}
-#inhoud{
-background-color: grey;
-width: 20%;
-height: 10%;
+#display{
+background-color: black;
+width: 90%;
+height: 100%;
+border: 2px solid darkgrey;
+border-radius:30px;
 }
