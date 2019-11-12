@@ -13,6 +13,7 @@ p {
  color: #291391;
  text-align:center;
 }
+
 #menu{
 background-color:white;
 width: 80%;
@@ -21,6 +22,12 @@ margin-left: 10%;
 border: 2px solid black;
   border-radius: 30px;
 
+}
+#menu img{
+margin-left: 0%;
+margin-top: 0%;
+width: 80px;
+height: 80px;
 }
 
 #container{
@@ -65,9 +72,13 @@ justify-content: space-between;
 
 #display{
 background-color: #00000060 ;
-
 width: 90%;
 height: 100%;
+}
+
+
+#display p{
+color:white;   
 
 }
 
